@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saklar Lampu Rumah</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <!-- ruang tamu -->
+    <div class="ruang">
+        <div class="saklarUtama">
+            <h1>Ruang Tamu</h1>
+            <label class="switch">
+                <input type="checkbox" onchange="saklarUtama()" id="switch-rt">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <div class="lampu">
+            <!-- lampu RT 1 -->
+            <div class="lampu-rt1">
+                <div>
+                    <img src="asset/images/off.gif" id="lamp-rt1" />
+                </div>
+                <div class="switch-rt1">
+                    <label class="switch">
+                        <input type="checkbox" onchange="saklar()" id="saklar-rt1">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <!-- lampu RT 2 -->
+            <div class="lampu-rt2">
+                <div>
+                    <img src="asset/images/off.gif" id="lamp-rt2" />
+                </div>
+                <div class="switch-rt2">
+                    <label class="switch">
+                        <input type="checkbox" onchange="saklar()" id="saklar-rt2">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <!-- lampu RT 3 -->
+            <div class="lampu-rt3">
+                <div>
+                    <img src="asset/images/off.gif" id="lamp-rt3" />
+                </div>
+                <div class="switch-rt3">
+                    <label class="switch">
+                        <input type="checkbox" onchange="saklar()" id="saklar-rt3">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ruang keluarga -->
+    <div class="ruang">
+        <div class="saklarUtama">
+            <h1>Ruang Keluarga</h1>
+            <label class="switch">
+                <input type="checkbox" onchange="saklarUtama()" id="switch-rk">
+                <span class="slider round"></span>
+            </label>
+        </div>
+       
+        <div class="lampu">
+            <!-- lampu RK 1 -->
+            <div class="lampu-rk1">
+                <div>
+                    <img src="asset/images/off.gif" id="lamp-rk1" />
+                </div>
+                <div class="switch-rk1">
+                    <label class="switch">
+                        <input type="checkbox" onchange="saklar()" id="saklar-rk1">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <!-- lampu RK 1 -->
+            <div class="lampu-rk2">
+                <div>
+                    <img src="asset/images/off.gif" id="lamp-rk2" />
+                </div>
+                <div class="switch-rk2">
+                    <label class="switch">
+                        <input type="checkbox" onchange="saklar()" id="saklar-rk2">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <!-- lampu RK 1 -->
+            <div class="lampu-rk3">
+                <div>
+                    <img src="asset/images/off.gif" id="lamp-rk3" />
+                </div>
+                <div class="switch-rk3">
+                    <label class="switch">
+                        <input type="checkbox" onchange="saklar()" id="saklar-rk3">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- kamar tidur -->
+    <div class="ruang">
+        <div class="saklarUtama">
+            <h1>Kamar Tidur</h1>
+            <label class="switch">
+                <input type="checkbox" onchange="saklarUtama()" id="switch-kt">
+                <span class="slider round"></span>
+            </label>
+        </div>
+
+        <div class="lampu">
+            <!-- lampu KT 1 -->
+            <div class="lampu-kt1">
+                <div>
+                    <img src="asset/images/off.gif" id="lamp-kt1" />
+                </div>
+                <div class="switch-kt1">
+                    <label class="switch">
+                        <input type="checkbox" onchange="saklar()" id="saklar-kt1">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <!-- lampu KT 2 -->
+            <div class="lampu-kt2">
+                <div>
+                    <img src="asset/images/off.gif" id="lamp-kt2" />
+                </div>
+                <div class="switch-kt2">
+                    <label class="switch">
+                        <input type="checkbox" onchange="saklar()" id="saklar-kt2">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- dapur -->
+    <div class="ruang">
+        <div class="saklarUtama">
+            <h1>Dapur</h1>
+            <label class="switch">
+                <input type="checkbox" onchange="saklarUtama()" id="switch-d">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        
+
+        <div class="lampu">
+            <!-- lampu dapur 1 -->
+            <div class="lampu-d1">
+                <div>
+                    <img src="asset/images/off.gif" id="lamp-d1" />
+                </div>
+                <div class="switch-d1">
+                    <label class="switch">
+                        <input type="checkbox" onchange="saklar()" id="saklar-d1">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <!-- lampu dapur 2 -->
+            <div class="lampu-d2">
+                <div>
+                    <img src="asset/images/off.gif" id="lamp-d2" />
+                </div>
+                <div class="switch-d2">
+                    <label class="switch">
+                        <input type="checkbox" onchange="saklar()" id="saklar-d2">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="lampu.js" type="application/javascript"></script>
+</body>
+
+</html>
